@@ -1,7 +1,8 @@
+import { Button } from "@/components/ui/button";
 import React from "react";
 
 const Home = () => {
-  return <div className="text-5xl text-green-200">Is tailwind working?</div>;
+  return <Button>A button.</Button>;
 };
 
 export default Home;
