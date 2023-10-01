@@ -3,8 +3,6 @@ import { useState } from "react";
 
 import * as z from "zod";
 import axios from "axios";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 import { ImageIcon, Pencil, PlusCircle, X } from "lucide-react";
 import toast from "react-hot-toast";
