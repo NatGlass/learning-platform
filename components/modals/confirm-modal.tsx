@@ -24,7 +24,7 @@ const ConfirmModal = ({ children, onConfirm }: ConfirmModalProps) => {
       <AlertDialogContent>
         <AlertDialogHeader>
           <AlertDialogTitle>
-            Are you sure you want to delete this chapter?
+            Are you sure you want to delete this?
           </AlertDialogTitle>
           <AlertDialogDescription>
             This cannot be undone.
