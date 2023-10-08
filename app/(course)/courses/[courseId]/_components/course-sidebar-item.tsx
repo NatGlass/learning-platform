@@ -39,6 +39,7 @@ const CourseSidebarItem = ({
         isCompleted && isActive && "bg-emerald-200/20"
       )}
       type="button"
+      onClick={onClick}
     >
       <div className="flex items-center gap-x-2 py-4">
         <Icon
